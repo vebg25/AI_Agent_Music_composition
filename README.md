@@ -6,7 +6,7 @@
 
 #### This is achieved through a modular, multi-step LangGraph pipeline that simulates a collaborative music creation process:
 
-*🧠 Melody generation
+*🧠 Melody generation*
          
 -🎹 Harmony creation
 
