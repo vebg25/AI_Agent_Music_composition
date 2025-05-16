@@ -1,0 +1,7 @@
+langchain
+langchain-openai
+langchain-groq
+langgraph
+music21
+pygame
+python-dotenv
