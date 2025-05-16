@@ -6,26 +6,26 @@
 
 #### This is achieved through a modular, multi-step LangGraph pipeline that simulates a collaborative music creation process:
 
-### 🧠 Melody generation
+### -🧠 Melody generation
          
-### 🎹 Harmony creation
+### -🎹 Harmony creation
 
-### 🥁 Rhythm analysis
+### -🥁 Rhythm analysis
 
-### 🎼 Style adaptation
+### -🎼 Style adaptation
 
-### 🎧 MIDI synthesis and playback
+### -🎧 MIDI synthesis and playback
 
 ### 🛠 Features
-### ✅ LLM-powered composition using Groq's Llama models via LangChain
+### -✅ LLM-powered composition using Groq's Llama models via LangChain
 
-### 🧩 Modular graph-based pipeline via LangGraph
+### -🧩 Modular graph-based pipeline via LangGraph
 
-### 🎵 Music theory encoded with the help of music21
+### -🎵 Music theory encoded with the help of music21
 
-### 🔊 Playable MIDI output using pygame
+### -🔊 Playable MIDI output using pygame
 
-### 🌱 Built for experimentation and musical creativity
+### -🌱 Built for experimentation and musical creativity
 
 ### 📦 Directory Structure
 ```bash
@@ -64,17 +64,17 @@ python main.py
 ```
 
 ### 📚 Technologies Used
-#### LangGraph – graph-based multi-agent execution engine
+#### -LangGraph – graph-based multi-agent execution engine
 
-#### LangChain – LLM orchestration framework
+#### -LangChain – LLM orchestration framework
 
-#### Groq llama 3.1-8b model – natural language generation
+#### -Groq llama 3.1-8b model – natural language generation
 
-#### music21 – music representation and MIDI creation
+#### -music21 – music representation and MIDI creation
 
-#### pygame – audio playback
+#### -pygame – audio playback
 
-#### python-dotenv – environment management
+#### -python-dotenv – environment management
 
 ### 🔄 Pipeline Breakdown
 
