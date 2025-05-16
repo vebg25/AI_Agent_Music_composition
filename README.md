@@ -1,52 +1,49 @@
-🎼 AI Music Agent Generator 🎶
-A Modular AI-Powered Music Agent Composition Pipeline Using LangGraph, LLMs, and music21
+## 🎼 AI Music Agent Generator 🎶
+#### A Modular AI-Powered Music Agent Composition Pipeline Using LangGraph, LLMs, and music21
 
-🧠 Overview
-AI Music Agent Collaborator is an interactive AI-powered music generation system that turns a simple musical idea (like “a happy piano tune in C major”) into a complete MIDI composition.
+### Overview
+#### AI Music Agent Collaborator is an interactive AI-powered music generation system that turns a simple musical idea (like “a happy piano tune in C major”) into a complete MIDI composition.
 
-This is achieved through a modular, multi-step LangGraph pipeline that simulates a collaborative music creation process:
+#### This is achieved through a modular, multi-step LangGraph pipeline that simulates a collaborative music creation process:
 
-🧠 Melody generation
+### 🧠 Melody generation
+         
+### 🎹 Harmony creation
 
-🎹 Harmony creation
+### 🥁 Rhythm analysis
 
-🥁 Rhythm analysis
+### 🎼 Style adaptation
 
-🎼 Style adaptation
+### 🎧 MIDI synthesis and playback
 
-🎧 MIDI synthesis and playback
+### 🛠 Features
+### ✅ LLM-powered composition using Groq's Llama models via LangChain
 
-🛠 Features
-✅ LLM-powered composition using OpenAI's GPT models via LangChain
+### 🧩 Modular graph-based pipeline via LangGraph
 
-🧩 Modular graph-based pipeline via LangGraph
+### 🎵 Music theory encoded with the help of music21
 
-🎵 Music theory encoded with the help of music21
+### 🔊 Playable MIDI output using pygame
 
-🔊 Playable MIDI output using pygame
+### 🌱 Built for experimentation and musical creativity
 
-🌱 Built for experimentation and musical creativity
-
-📦 Directory Structure
+### 📦 Directory Structure
 ```bash
 
 ├── config/               # LLM setup
 ├── core/                 # Graph and state logic
 ├── components/           # Individual LangGraph nodes
 ├── utils/                # Playback utility
-├── .env                  # OpenAI API key
+├── .env                  # Groq API key
 ├── main.py               # Entry point
 ├── requirements.txt      # Dependencies
 └── README.md             # Project doc
 ```
-⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 1. Clone the repository
 ```bash
-
 git clone https://github.com/vebg25/AI_Agent_Music_composition.git
 ```
-cd ai_music_collaborator
-
 
 2. Install dependencies
 ```bash
@@ -61,25 +58,25 @@ Create a .env file in the root directory:
 ```ini
 GROQ_API_KEY=your_groq_key_here
 ```
-🚀 Run the Project
+### 🚀 Run the Project
 ```bash
 python main.py
 ```
 
-📚 Technologies Used
-LangGraph – graph-based multi-agent execution engine
+### 📚 Technologies Used
+#### LangGraph – graph-based multi-agent execution engine
 
-LangChain – LLM orchestration framework
+#### LangChain – LLM orchestration framework
 
-OpenAI GPT-4o mini – natural language generation
+#### Groq llama 3.1-8b model – natural language generation
 
-music21 – music representation and MIDI creation
+#### music21 – music representation and MIDI creation
 
-pygame – audio playback
+#### pygame – audio playback
 
-python-dotenv – environment management
+#### python-dotenv – environment management
 
-🔄 Pipeline Breakdown
+### 🔄 Pipeline Breakdown
 
 | Stage       | Component     | Description                                   |
 | ----------- | ------------- | --------------------------------------------- |
