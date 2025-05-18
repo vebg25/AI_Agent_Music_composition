@@ -63,10 +63,15 @@ python main.py
 
 ### 📚 Technologies Used
 - LangGraph – graph-based multi-agent execution engine
+
 - LangChain – LLM orchestration framework
+  
 - Groq llama 3.1-8b model – natural language generation
+  
 - music21 – music representation and MIDI creation
+  
 - pygame – audio playback
+  
 - python-dotenv – environment management
 
 ### 🔄 Pipeline Breakdown
